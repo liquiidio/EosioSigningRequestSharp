@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\eossharp\EosSharp\EosSharp.Core\EosSharp.Core.csproj" />
-    <ProjectReference Include="..\eossharp\EosSharp\EosSharp\EosSharp.csproj" />
+    <ProjectReference Include="..\EosSharp-Private\EosSharp\EosSharp.Core\EosSharp.Core.csproj" />
+    <ProjectReference Include="..\EosSharp-Private\EosSharp\EosSharp\EosSharp.csproj" />
   </ItemGroup>
 
 </Project>
