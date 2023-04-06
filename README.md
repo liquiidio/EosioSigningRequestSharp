@@ -76,31 +76,23 @@ Endpoints have its own set of parameters that you may build up and pass in to th
  
 ```csharp
     new AnchorLink(new LinkOptions()
-                {
-                    Transport = this.Transport,
-                    // Uncomment this for and EOS session
-                    //ChainId = "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
-                    //Rpc = "https://eos.greymass.com",
-```
-<br>
-```csharp
-    // WAX session
+        {
+            Transport = this.Transport,
+            // WAX
             ChainId = "1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4",
             Rpc = "https://api.wax.liquidstudios.io",
             ZlibProvider = new NetZlibProvider(),
             Storage = new PlayerPrefsStorage()
         });
 ```
+
 ---
 ## Additional examples (!TODO!)
 These are examples based on the specific plugin/package usage.
 Achor link - Creating and signing different kinds of transactions.  
 
-### An example (!TODO!)
 
-AnchorLink
-
-Token Transfer 
+#### Token Transfer 
 ```csharp
     // transfer tokens using a session
         private async Task Transfer(string frmAcc, string toAcc, string qnty, string memo)
@@ -139,16 +131,3 @@ Token Transfer
             }
         }
 ```
-Link? (!TODO!)
-
-- NFT Transfer - link
-- Create Permission - link
-- Get Balanaces - link
-
-
-
-[build-badge]: https://github.com/mkosir/react-parallax-tilt/actions/workflows/build.yml/badge.svg
-[build-url]: https://github.com/mkosir/react-parallax-tilt/actions/workflows/build.yml
-[test-badge]: https://github.com/mkosir/react-parallax-tilt/actions/workflows/test.yml/badge.svg
-[test-url]: https://github.com/mkosir/react-parallax-tilt/actions/workflows/test.yml
-
