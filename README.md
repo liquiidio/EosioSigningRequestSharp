@@ -8,7 +8,7 @@
      alt="Liquiid logo" width="300" height="300">
 </div>
 
-# EOSIO Request Signing Sharp (!TODO!)
+# EOSIO Request Signing Sharp
 Connects with EOSIO Signing Request (ESR) protocol library. The full specification for ESR (Revision 3) is available [here](https://github.com/eosio-eps/EEPs/blob/master/EEPS/eep-7.md).
 
 The ESR protocol allows for an application (dapp) to generate signature requests (transactions) which can then be passed to signers (wallets) for signature creation. These signature requests can be used within URI links, QR Codes, or other transports between applications and signers.
