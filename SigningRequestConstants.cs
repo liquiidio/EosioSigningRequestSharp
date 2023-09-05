@@ -80,7 +80,7 @@ namespace EosioSigningRequest
                     return new KeyValuePair<string, object>("chain_alias", (byte) chainIdEnum);
                 return new KeyValuePair<string, object>("chain_id", ChainIdLookup[(ChainName)chainIdEnum]);
             }
-            return new KeyValuePair<string, object>("chain_alias", chainId);
+            return new KeyValuePair<string, object>("chain_id", chainId);
         }
     }
 }
